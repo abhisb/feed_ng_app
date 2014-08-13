@@ -1,0 +1,42 @@
+<!-- +++++ Welcome Section +++++ -->
+	<div id="ww">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					<img src="assets/img/user.png" alt="Stanley">
+					<h1>QFEED - HTML 5 Portal</h1>
+					<p>The web is evolving rapidly and HTML5 seems to hold the future for web apps. Ready your applications to lead the race with the exciting capabilities of HTML5. We help companies stay abreast of technological advances by incorporating latest and innovative techniques in application development.
+					HTML5 removes your dependence on third party multimedia players to a considerable extent. With the new audio, video tags and APIs, your music and videos can be easily made accessible to your audience. And if your customer uses a browser that cannot cope with these native elements, we can implement a fallback strategy using Flash or other media plugins.</p>
+				
+				</div><!-- /col-lg-8 -->
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /ww -->
+	
+	
+	<!-- +++++ Projects Section +++++ -->
+	
+	<div class="container pt">
+		<h1>Recent Projects</h1>
+		<div class="row mt centered" ng-controller="recentProjects">	
+			<div class="col-lg-4" ng-repeat="project in projectDetails">
+				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt="" /></a>
+				<p>{{project.title}}</p>
+			</div>
+		</div><!-- /row -->
+		<!-- <div class="row mt centered">	
+			<div class="col-lg-4">
+				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt="" /></a>
+				<p>YODA</p>
+			</div>
+			<div class="col-lg-4">
+				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt="" /></a>
+				<p>EMPERORS</p>
+			</div>
+			<div class="col-lg-4">
+				<a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port06.jpg" alt="" /></a>
+				<p>CHIEFS</p>
+			</div>
+		</div> --><!-- /row -->
+	</div><!-- /container -->
+	
